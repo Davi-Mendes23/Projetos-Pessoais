@@ -8,22 +8,14 @@
 
 Este repositório contém uma coleção de projetos pessoais desenvolvidos para praticar e demonstrar habilidades em programação e desenvolvimento de software. Os projetos abrangem diversas tecnologias e áreas do desenvolvimento web e mobile.
 
-## 🚀 Projetos Destacados
+# 🚀 Projetos Destacados
+## **IFMG**
 
-### 1. **To-Do List**
-- **Descrição:** Uma aplicação web interativa para gerenciamento de tarefas
-- **Funcionalidades:**
-  - Adicionar, editar e remover tarefas
-  - Marcar tarefas como concluídas
-  - Interface responsiva
-  - Armazenamento local
+### 1. **Agenda de contatos**
+- Em obras
 
-### 2. **Calculadora**
-- **Descrição:** Calculadora funcional com operações básicas
-- **Características:**
-  - Design moderno e intuitivo
-  - Operações matemáticas básicas
-  - Interface amigável
+### 2. **Arvore genealógica**
+- Em obras
 
 ### 3. **Jogo da Velha**
 - **Descrição:** Implementação do clássico jogo da velha
@@ -32,6 +24,10 @@ Este repositório contém uma coleção de projetos pessoais desenvolvidos para 
   - Indicador de turno
   - Detecção automática de vitória/empate
   - Reinício do jogo
+ 
+## **Projeto Tupan**
+
+- Em obras
 
 ### Ferramentas de Desenvolvimento
 
@@ -39,35 +35,12 @@ Este repositório contém uma coleção de projetos pessoais desenvolvidos para 
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
-## 📁 Estrutura do Repositório
-
-```
-Projetos-Pessoais/
-├── To-Do-List.py
-├── Calculadora.py
-└── Jogo-da-Velha.py
-```
-
 ## 🎯 Objetivos do Desenvolvimento
 
 - **Prática:** Aplicar conceitos de programação em projetos reais
 - **Aprendizado:** Explorar novas tecnologias e frameworks
 - **Portfólio:** Demonstrar habilidades para oportunidades profissionais
 - **Evolução:** Melhorar constantemente a qualidade do código
-
-## 🔧 Como Executar os Projetos
-
-1. **Clone o repositório:**
-   ```bash
-   git clone https://github.com/Davi-Mendes23/Projetos-Pessoais.git
-   ```
-
-2. **Navegue até o projeto desejado:**
-   ```bash
-   cd Projetos-Pessoais/Nome-do-Projeto
-   ```
-
-3. **Abra o arquivo `index.html` em seu navegador**
 
 ## 📈 Próximos Passos
 
@@ -96,6 +69,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 ⭐ **Se este repositório foi útil, considere dar uma estrela!** ⭐
 
 </div>
+
 
 
 
