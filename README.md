@@ -1,5 +1,6 @@
 # Projetos Pessoais - Portfólio de Desenvolvimento
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![GitHub](https://img.shields.io/badge/Status-Em%20Desenvolvimento-brightgreen)
 ![GitHub](https://img.shields.io/badge/License-MIT-blue)
 
@@ -34,14 +35,15 @@ Este repositório contém uma coleção de projetos pessoais desenvolvidos para 
 
 ## 🛠️ Tecnologias Utilizadas
 
-### Frontend
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+Ferramentas de Desenvolvimento
+https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white
+https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white
+https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white
 
 ### Ferramentas de Desenvolvimento
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 ## 📁 Estrutura do Repositório
 
@@ -112,3 +114,4 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 ⭐ **Se este repositório foi útil, considere dar uma estrela!** ⭐
 
 </div>
+
