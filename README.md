@@ -49,7 +49,7 @@ Este repositório contém uma coleção de projetos pessoais desenvolvidos para 
 ## **Projeto Tupan**
 
 ### 4. Tupan — Analisadora Inteligente de Dados
-- **Descrição:** Aplicação desenvolvida em Jupyter Notebook que utiliza a API da OpenAI para criar uma IA analítica (E.V.I.) capaz de interpretar e responder perguntas sobre dados de planilhas CSV. O sistema combina pandas para processamento de dados e modelos de linguagem para gerar insights textuais automáticos.
+- **Descrição:** Aplicação desenvolvida em Jupyter Notebook que utiliza a API da OpenAI para criar uma IA analítica (Tupan) capaz de interpretar e responder perguntas sobre dados de planilhas CSV. O sistema combina pandas para processamento de dados e modelos de linguagem para gerar insights textuais automáticos.
 - **Funcionalidades:**
   - Leitura e análise automática de arquivos CSV com o pandas.
   - Geração de resumo estatístico completo dos dados (describe).
@@ -112,6 +112,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 ⭐ **Se este repositório foi útil, considere dar uma estrela!** ⭐
 
 </div>
+
 
 
 
