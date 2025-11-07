@@ -43,21 +43,9 @@ Este repositório contém uma coleção de projetos pessoais desenvolvidos para 
 
 ```
 Projetos-Pessoais/
-│
-├── To-Do-List/
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
-│
-├── Calculadora/
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
-│
-└── Jogo-da-Velha/
-    ├── index.html
-    ├── style.css
-    └── script.js
+├── To-Do-List.py
+├── Calculadora.py
+└── Jogo-da-Velha.py
 ```
 
 ## 🎯 Objetivos do Desenvolvimento
@@ -108,5 +96,6 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 ⭐ **Se este repositório foi útil, considere dar uma estrela!** ⭐
 
 </div>
+
 
 
