@@ -12,22 +12,65 @@ Este repositório contém uma coleção de projetos pessoais desenvolvidos para 
 ## **IFMG**
 
 ### 1. **Agenda de contatos**
-- Em obras
+- **Descrição:** Aplicação CLI para gerenciar uma agenda simples usando classes
+- **Funcionalidades:**
+  - Inclusão de novo contato (valida nome obrigatório).
+  - Alteração de contato: edição campo-a-campo (enter em branco mantém valor).
+  - Exclusão de contato por código (índice).
+  - Salvamento e carregamento de contatos em arquivo CSV (escrita com cabeçalho, leitura com tratamento de arquivo vazio).
+  - Tratamento básico de entrada inválida (evita crash ao converter código não numérico).
+  - Estrutura orientada a objetos (separa responsabilidades: Contato, Arquivo, Agenda).
 
 ### 2. **Arvore genealógica**
-- Em obras
+- **Descrição:** Aplicação em Python para gerenciar uma árvore genealógica
+- **Funcionalidades:**
+  - Inclusão de pessoas na árvore (com verificação de duplicidade e nome obrigatório).
+  - Edição de parentescos: definição e alteração de pai e mãe com validação de existência.
+  - Listagem ordenada de todas as pessoas e seus parentes diretos.
+  - Exclusão de pessoas (somente se não forem pai ou mãe de ninguém).
+  - Visualização recursiva da árvore de ancestrais e árvore de descendentes.
+  - Salvamento automático dos dados em arquivo JSON com UTF-8 e formatação indentada.
+  - Interface de menu interativo em terminal, com opções para incluir, excluir, consultar, salvar e sair.
+  - Estrutura orientada a objetos (classe Arvore) com persistência de estado e validações robustas.
+
 
 ### 3. **Jogo da Velha**
-- **Descrição:** Implementação do clássico jogo da velha
+- **Descrição:** Versão interativa do clássico Jogo da Velha, jogado no terminal contra uma inteligência artificial básica
 - **Funcionalidades:**
-  - Modo multiplayer local
-  - Indicador de turno
-  - Detecção automática de vitória/empate
-  - Reinício do jogo
+  - Interface em texto com coordenadas no formato “1A”, “2B”, etc.
+  - Modo single player: jogador humano (X) contra IA (O).
+  - IA inteligente:
+    - Tenta vencer se possível na jogada atual.
+    - Bloqueia vitória iminente do jogador humano.
+    - Escolhe uma jogada aleatória quando não há jogadas críticas.
+  - Detecção automática de vitória e empate.
+  - Atualização visual do tabuleiro a cada jogada.
  
 ## **Projeto Tupan**
 
-- Em obras
+### 4. Tupan — Analisadora Inteligente de Dados
+- **Descrição:** Aplicação desenvolvida em Jupyter Notebook que utiliza a API da OpenAI para criar uma IA analítica (E.V.I.) capaz de interpretar e responder perguntas sobre dados de planilhas CSV. O sistema combina pandas para processamento de dados e modelos de linguagem para gerar insights textuais automáticos.
+- **Funcionalidades:**
+  - Leitura e análise automática de arquivos CSV com o pandas.
+  - Geração de resumo estatístico completo dos dados (describe).
+  - Exibição controlada de tabelas parciais para bases muito grandes.
+  - Integração com a API da OpenAI via cliente Python (OpenAI).
+  - Construção de prompt contextual combinando os dados e o resumo para a IA responder perguntas.
+  - Interface interativa em notebook (Jupyter) para experimentação direta.
+  - Estrutura modular com funções reutilizáveis (resumo_dados, tabela_completa_str).
+  - Configuração de API Key e endpoint personalizável (compatível com OpenRouter).
+
+### 5. Oráculo — Assistente de Conhecimento com IA
+- **Descrição:** Notebook em Python que implementa um sistema de perguntas e respostas inteligente, utilizando embeddings semânticos e modelos de linguagem da OpenAI para responder com base em informações de um banco de dados CSV. O projeto integra LangChain, FAISS e HuggingFace Transformers para criar um fluxo completo de RAG (Retrieval-Augmented Generation).
+- **Funcionalidades:**
+  - Leitura e indexação de dados a partir de um arquivo CSV (knowledge_base.csv).
+  - Criação de vetores semânticos com HuggingFaceEmbeddings.
+  - Armazenamento e busca vetorial eficiente via FAISS.
+  - Integração com LangChain para orquestrar a busca e geração de respostas.
+  - Uso da API da OpenAI (compatível com OpenRouter) para gerar respostas contextuais e explicativas.
+  - Pipeline modular para carregar dados, buscar similaridades e responder perguntas.
+  - Interface interativa via Jupyter Notebook, ideal para testes e demonstrações.
+  -  Estrutura flexível para expansão com outras fontes de dados ou formatos (JSON, PDFs etc.).
 
 ### Ferramentas de Desenvolvimento
 
@@ -69,6 +112,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 ⭐ **Se este repositório foi útil, considere dar uma estrela!** ⭐
 
 </div>
+
 
 
 
